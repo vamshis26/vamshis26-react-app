@@ -2,7 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/vamshis26/react-app-live",
+  "homepage": "https://vamshis26.github.io/react-app",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
     "gh-pages": "^6.2.0"
   }
 }
