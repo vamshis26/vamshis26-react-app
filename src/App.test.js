@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders Login component', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  
+  // Check if the Login component is rendered
+  const loginElement = screen.getByText(/login/i); 
+  expect(loginElement).toBeInTheDocument();
 });
