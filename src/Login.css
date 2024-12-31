@@ -18,18 +18,24 @@ body {
 
 h2 {
   color: #fff;
-  margin-bottom: 20px;
+  font-size: 32px; 
+  font-weight: 700; 
+  margin-bottom: 30px; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Login Form Styles */
 .login-container {
   width: 100%;
-  max-width: 400px;
-  background: rgba(0, 0, 0, 0.6); /* Dark background with transparency */
+  max-width: 420px;
+  background: rgba(0, 0, 0, 0.6); 
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+  backdrop-filter: blur(10px); 
   text-align: center;
 }
 
@@ -101,7 +107,7 @@ input::placeholder {
   transform: translateY(2px);
 }
 
-/* Add animation to the form */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -117,14 +123,14 @@ input::placeholder {
   animation: fadeIn 0.8s ease-out;
 }
 
-/* Adding some responsive styles */
+
 @media screen and (max-width: 480px) {
   .login-container {
     padding: 20px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 26px; 
   }
 
   .login-button {
